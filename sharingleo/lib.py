@@ -47,6 +47,11 @@ def clean_data(data):
     data.loc[:, 'Frequency'] = data['Frequency'].map(drows)
     return data
 
+def try_me():
+    a = print('wesh wesh canne à pêche')
+    print('wesh wesh canne à pêche')
+    return a
+
 
 if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython
